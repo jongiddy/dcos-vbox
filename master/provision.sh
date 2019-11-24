@@ -1,7 +1,7 @@
 #!/bin/sh
 
-bootstrap_ip=`cat /vagrant/bootstrap-ip | tr -d '[:space:]')`
+set -ex
 
-curl -O http://${bootstrap_ip}:80/dcos_install.sh
+curl -O http://172.28.128.20:80/dcos_install.sh
 
 bash dcos_install.sh master
