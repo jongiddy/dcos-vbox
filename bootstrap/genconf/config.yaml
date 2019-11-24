@@ -1,0 +1,18 @@
+bootstrap_url: http://127.0.0.1:80
+cluster_name: cluster-name
+superuser_username: admin
+superuser_password_hash: $6$rounds=656000$v55tdnlMGNoSEgYH$1JAznj58MR.Bft2wd05KviSUUfZe45nsYsjlEl84w34pp48A9U2GoKzlycm3g6MBmg4cQW9k7iY4tpZdkWy9t1
+exhibitor_storage_backend: static
+master_discovery: static
+ip_detect_public_filename: genconf/ip-detect
+master_list:
+- 127.0.0.2
+- 127.0.0.3
+- 127.0.0.4
+resolvers:
+- 169.254.169.253
+# Choose your security mode: permissive or strict
+security: strict
+# A custom proxy is optional. For details, see the configuration documentation.
+use_proxy: 'false'
+enable_windows_agents: true
