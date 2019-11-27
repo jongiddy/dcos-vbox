@@ -4,11 +4,9 @@ set -e
 
 cd /vagrant
 
-bash dcos_generate_config.sh
+bash dcos_generate_config.ee.sh
 
-# https://downloads.dcos.io/dcos/testing/master/windows/dcos_generate_config_win.sh
-# https://downloads.dcos.io/dcos/testing/pull/6561/windows/dcos_generate_config_win.sh
-bash dcos_generate_config_win.sh
+bash dcos_generate_config_win.ee.sh
 
 # need extra args to docker run command!
 # cannot make first directory read-only as then we can't mount second

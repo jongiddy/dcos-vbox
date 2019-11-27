@@ -1,0 +1,14 @@
+#!/bin/sh
+
+cat <<EOF
+{
+    "fault_domain": {
+        "region": {
+            "name": "region-name"
+        },
+        "zone": {
+            "name": "zone"
+        }
+    }
+}
+EOF
