@@ -1,7 +1,7 @@
 bootstrap_url: http://172.28.128.20:80
 cluster_name: cluster-name
 superuser_username: admin
-superuser_password_hash: $6$rounds=656000$v55tdnlMGNoSEgYH$1JAznj58MR.Bft2wd05KviSUUfZe45nsYsjlEl84w34pp48A9U2GoKzlycm3g6MBmg4cQW9k7iY4tpZdkWy9t1
+superuser_password_hash: $6$rounds=656000$m7Zw2SmEwB8R/6NL$H2HOyfLpMGa21W/lIBNAtDODPUpRaXonm/m/GGwOfO0D9a.KHzyZco.1nPueEQCzPo7OWHiTsKrpR3tejy3CS.
 exhibitor_storage_backend: static
 master_discovery: static
 ip_detect_public_filename: genconf/ip-detect
