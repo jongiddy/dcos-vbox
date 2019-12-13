@@ -12,6 +12,8 @@ bash dcos_generate_config.sh
 
 bash dcos_generate_config_win.sh
 
+rm dcos-genconf.*.tar
+
 cp ip-detect.ps1 genconf/serve/windows/ip-detect.ps1
 cp ip-detect-public.ps1 genconf/serve/windows/ip-detect-public.ps1
 
