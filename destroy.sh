@@ -4,6 +4,6 @@
 
 (cd master; vagrant destroy -f)
 
-(cd bootstrap; vagrant destroy -f; rm -fr genconf/serve)
+(cd bootstrap; vagrant destroy -f; rm -f dcos-genconf.*.tar)
 
-(cd bootstrap-ee; vagrant destroy -f; rm -fr genconf/serve)
+(cd bootstrap-ee; vagrant destroy -f; rm -f dcos-genconf.*.tar)

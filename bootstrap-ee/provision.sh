@@ -4,6 +4,10 @@ set -e
 
 cd /vagrant
 
+if [ -d genconf/serve ]; then
+	rm -fr genconf/serve
+fi
+
 bash dcos_generate_config.ee.sh
 
 bash dcos_generate_config_win.ee.sh
