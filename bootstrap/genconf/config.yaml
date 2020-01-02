@@ -1,5 +1,5 @@
 bootstrap_url: http://172.28.128.20:80
-cluster_name: cluster-name
+cluster_name: windows-vagrant-cluster
 superuser_username: admin
 superuser_password_hash: $6$rounds=656000$m7Zw2SmEwB8R/6NL$H2HOyfLpMGa21W/lIBNAtDODPUpRaXonm/m/GGwOfO0D9a.KHzyZco.1nPueEQCzPo7OWHiTsKrpR3tejy3CS.
 exhibitor_storage_backend: static
