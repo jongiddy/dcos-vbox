@@ -6,6 +6,7 @@ Vagrant.configure(2) do |config|
   # config.vbguest.auto_update = true
   config.vm.network "private_network", ip: "172.28.128.21"
 
+  config.vm.box_url = 'http://downloads.dcos.io/dcos-vagrant/metadata.json'
   config.vm.box = 'mesosphere/dcos-centos-virtualbox'
 
   config.vm.provision "shell", path: "provision.sh"
