@@ -1,7 +1,7 @@
 bootstrap_url: http://172.28.128.20:80
 cluster_name: windows-vagrant-cluster
 superuser_username: admin
-superuser_password_hash: $6$rounds=656000$m7Zw2SmEwB8R/6NL$H2HOyfLpMGa21W/lIBNAtDODPUpRaXonm/m/GGwOfO0D9a.KHzyZco.1nPueEQCzPo7OWHiTsKrpR3tejy3CS.
+superuser_password_hash: $6$rounds=656000$fNkxKT6JDDvUocVP$lbdh4Ji9CrEwXQypensYSVSte9QKtesE.IIda4Bu/HFUnFm6fiNA7CEsr.78D93mwz/rmp9uaqjn10lcaXvOj1
 exhibitor_storage_backend: static
 master_discovery: static
 ip_detect_public_filename: genconf/ip-detect
