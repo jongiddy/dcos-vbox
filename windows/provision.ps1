@@ -1,5 +1,7 @@
 $ErrorActionPreference = "stop"
 
+# Set-PSDebug -Trace 2
+
 # Turn off firewall
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
