@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.guest = :windows
   config.vm.provider 'virtualbox' do |v, override|
     v.gui = false
-    v.cpus = 1
+    v.cpus = 2
   end
 
   config.vm.provision "shell", path: "provision.ps1"
