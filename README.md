@@ -17,7 +17,7 @@ Requires:
 - a Windows Vagrant box called `windows_server_1709_docker_virtualbox.box`. Run `vagrant box add windows_server_1709_docker_virtualbox.box`.
 - a DC/OS installer file called `dcos_generate_config.ee.sh` in `dcos-vbox/bootstrap-ee`.
 - a DC/OS Windows installer files called `dcos_generate_config_win.ee.sh` in `dcos-vbox/bootstrap-ee`.
-- a DC/OS Enterprise license file in `dcos-vbox/bootstrap-ee/genconf/license.txt`
+- a DC/OS Enterprise license file in `dcos-vbox/bootstrap-ee/license.txt`
 
 Start cluster with `./ee-create.sh`, upgrade it with `./ee-upgrade.sh`, and destroy with `destroy.sh`.
 
