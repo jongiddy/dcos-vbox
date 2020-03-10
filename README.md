@@ -9,17 +9,17 @@ Requires:
 - a DC/OS installer file called `dcos_generate_config.sh` in `dcos-vbox/bootstrap`.
 - a DC/OS Windows installer files called `dcos_generate_config_win.sh` in `dcos-vbox/bootstrap`.
 
-Start cluster with `./open-create.sh` and destroy with `destroy.sh`.
+Start cluster with `./open-create.sh`, upgrade it with `./open-upgrade.sh`, and destroy with `destroy.sh`.
 
 ## DC/OS Enterprise
 
 Requires:
 - a Windows Vagrant box called `windows_server_1709_docker_virtualbox.box`. Run `vagrant box add windows_server_1709_docker_virtualbox.box`.
 - a DC/OS installer file called `dcos_generate_config.ee.sh` in `dcos-vbox/bootstrap-ee`.
-- a DC/OS Windows installer files called `dcos_generate_config_win.ee.sh` in `dcos-vbox/bootstrap`.
+- a DC/OS Windows installer files called `dcos_generate_config_win.ee.sh` in `dcos-vbox/bootstrap-ee`.
 - a DC/OS Enterprise license file in `dcos-vbox/bootstrap-ee/genconf/license.txt`
 
-Start cluster with `./ee-create.sh` and destroy with `destroy.sh`.
+Start cluster with `./ee-create.sh`, upgrade it with `./ee-upgrade.sh`, and destroy with `destroy.sh`.
 
 ## Using
 
