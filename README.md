@@ -19,7 +19,7 @@ Requires:
 - a DC/OS Windows installer files called `dcos_generate_config_win.ee.sh` in `dcos-vbox/bootstrap-ee`.
 - a DC/OS Enterprise license file in `dcos-vbox/bootstrap-ee/license.txt`
 
-Start cluster with `./ee-create.sh`, upgrade it with `./ee-upgrade.sh`, and destroy with `destroy.sh`.
+Start cluster with `./ee-create.sh SECURITY-MODE`, upgrade it with `./ee-upgrade.sh SECURITY-MODE`, and destroy with `destroy.sh`. `SECURITY-MODE` can be either `permissive` or `strict`.
 
 ## Using
 

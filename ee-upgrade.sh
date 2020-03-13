@@ -2,6 +2,17 @@
 
 set -e -x
 
+security=$1
+case "${security}" in
+	permissive | strict)
+		;;
+	*)
+		echo "Usage: $0 [permissive|strict]"
+		;;
+esac
+
+cp bootstrap-ee/config-${security}.yaml bootstrap-ee/config.yaml
+
 (cd bootstrap-ee; bash ./dcos_generate_config.ee.sh --generate-node-upgrade-script 2.1.0-beta2-dev > upgrade.out)
 cat bootstrap-ee/upgrade.out
 url=$(grep 'Node upgrade script URL:' bootstrap-ee/upgrade.out | sed -e 's#Node upgrade script URL: \(http.\+/dcos_node_upgrade.sh\)#\1#')
