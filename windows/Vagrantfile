@@ -5,6 +5,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.network "private_network", ip: "172.28.128.31"
 
+  config.vm.box_url = 'https://dcos-windows-virtualbox-vm.s3.amazonaws.com/windows_server_1709_docker_virtualbox.box'
   config.vm.box = 'windows_server_1709_docker_virtualbox.box'
   config.vm.guest = :windows
   config.vm.provider 'virtualbox' do |v, override|
