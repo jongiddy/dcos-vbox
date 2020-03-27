@@ -4,9 +4,9 @@ superuser_username: admin
 superuser_password_hash: $6$rounds=656000$F.EfpPO7iEt0L78O$d6JXgW9TVz8KQWaIAlydGb2RQHspxma5Cx2EXLuKAEn7SMMKAOsAICfLrrOIsNeNq8pZzNrSxMVNYyJsPNlZe1
 exhibitor_storage_backend: static
 master_discovery: static
-ip_detect_public_filename: genconf/ip-detect
-ip_detect_windows: genconf/ip-detect.ps1
-fault_domain_detect_windows_filename: genconf/fault-domain-detect-win.ps1
+ip_detect_filename: genconf/ip-detect
+ip_detect_windows_filename: genconf/ip-detect.ps1
+enable_fault_domain: true
 master_list:
 - 172.28.128.21
 resolvers:

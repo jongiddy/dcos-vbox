@@ -5,6 +5,8 @@ superuser_password_hash: $6$rounds=656000$F.EfpPO7iEt0L78O$d6JXgW9TVz8KQWaIAlydG
 exhibitor_storage_backend: static
 master_discovery: static
 ip_detect_public_filename: genconf/ip-detect
+enable_fault_domain: true
+fault_domain_detect_windows_filename: genconf/fault-domain-detect-win.ps1
 master_list:
 - 172.28.128.21
 resolvers:
