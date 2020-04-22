@@ -15,6 +15,4 @@ do
 done
 curl --output bundle-61001.zip http://172.28.128.31:61001/system/health/v1/node/diagnostics/${bundle_id}/file
 
-curl --insecure --output bundle-61002.zip https://172.28.128.31:61002/system/health/v1/node/diagnostics/${bundle_id}/file
-
 curl --output bundle-1050.zip http://172.28.128.31:1050/system/health/v1/node/diagnostics/${bundle_id}/file
